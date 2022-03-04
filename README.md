@@ -25,11 +25,18 @@ It's made up of several components and the architecture looks something like thi
 
 ### Components
 
+Before you deploy, make sure you have the proper dependencies installed:
+
+* [docker](https://docs.docker.com/engine/install/)
+* CDK
+
 To deploy everything, including building from source run the following:
 
 ```shell script
 ./deploy.sh
 ```
+
+
 
 ##### Web Server
 This is a Containerized [Kotlin-JVM](https://kotlinlang.org/) [Spring Boot](https://spring.io/projects/spring-boot) Web Server that hosts the front-end application for displaying results.
